@@ -1,0 +1,116 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(196, 195, 194);
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    min-height: 100vh; /* Ocupa toda a altura da tela */
+}
+
+.container {
+    text-align: center;
+}
+
+#preview{
+    max-width:370px;
+    display: none;
+    border-radius: 7px;
+}
+
+/* Esconde o input original */
+    #inputImagem {
+        display: none;
+    }
+
+    /* Estilo do botão estilizado */
+    .botao-upload {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #4CAF50;
+        color: white;
+        font-size: 16px;
+        border-radius: 7px;
+        cursor: pointer;
+        margin-top: 20px;
+        transition: background-color 0.3s ease;
+    }
+
+    /* Efeito hover */
+    .botao-upload:hover {
+        background-color: #000000;
+        color: aliceblue;
+    }
+    a {
+        text-decoration: 0;
+    }
+
+    #inputDoc{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 7px;
+        border: none;
+        font-size: 15px;
+        padding: 10px;
+        width: 150%;
+        margin-top: 20px;
+    }
+
+    #register{
+        font-size: 18px;
+        padding: 10px;
+        width: 160%;
+        margin-top: 20px;
+        border-radius: 7px;
+        border: none;
+        
+    }
+
+    #register:hover {
+        background-color: black;
+        color: aliceblue;
+    }
+
+    #cadastrar{
+        font-size: 18px;
+        padding: 10px;
+        width: 160%;
+        margin-top: 20px;
+        border-radius: 7px;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    #cadastrar:hover {
+        background-color: black;
+        color: aliceblue;
+    }
+
+    #login{
+        font-size: 18px;
+        padding: 10px;
+        width: 160%;
+        margin-top: 20px;
+        border-radius: 7px;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    #login:hover {
+        background-color: black;
+        color: aliceblue;
+    }
+
+    .imgAnjo {
+        width: 150px;
+        height: 200px;
+        border-radius: 50%;
+        
+    }
